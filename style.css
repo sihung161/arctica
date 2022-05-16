@@ -1,0 +1,910 @@
+@import url('css/reset.css');
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+/*---style header---*/
+/*---style header-top---*/
+.header-top {
+    font-size: 13px;
+    background-color: #222;
+    color: #ddd;
+}
+.header-top .social-list {
+    border-right: 1px solid #434343;
+    padding: 10px 15px 10px 0;
+    margin-right: 30px
+}
+.header-top .social-list a {
+    color: #ddd;
+    padding: 0 15px;
+    transition: .4s;
+}
+.header-top .social-list a:first-child {
+    padding-left: 0;
+}
+.header-top .social-list a:hover {
+    color: #feb518;
+}
+.header-html {
+    padding: 10px 0;
+}
+.header-html a {
+    color: #ddd;
+    text-decoration: none;
+}
+.header-html a:hover {
+    color: #feb518;
+}
+/*---end style header-top---*/
+
+/*---style header-main---*/
+.header-main {
+    box-shadow: 0 0 15px 0px rgb(0 0 0 / 15%);
+}
+.header-main .navbar {
+    position: relative;
+    padding: 1.5rem 1rem;
+}
+.header-main ul.nav li a.nav-link {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #777;
+    padding: 15px 10px;
+    transition: .3s;
+}
+.header-main ul.nav li a.nav-link:hover,
+.header-main ul.nav li.active a.nav-link {
+    color: #feb518;
+}
+.header-main ul.nav li.order-menu a {
+    background-color: #feb518;
+    color: #000;
+    padding: 14px 35px;
+    border-radius: 0;
+    border: 2px solid #feb518;
+    transition: .4s
+}
+.header-main ul.nav li.order-menu a:hover {
+    background-color: #fff;
+    color: #000;
+}
+/*---end style header-main---*/
+/*---end style header---*/
+
+/*---style main---*/
+.sec {
+    margin-bottom: 120px;
+}
+.parallax-effect {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*---style title-style-01---*/
+.title-style-01 {
+    text-align: center;
+}
+.title-style-01 h2 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 38px;
+    color: #feb518;
+}
+.title-style-01 span {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+/*---style title-style-02---*/
+.title-style-02 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.title-style-02.left {
+    text-align: left;
+}
+.title-style-02 h2 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    color: #feb518;
+}
+.title-style-02 span {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/*---style btn-readmore---*/
+.btn.btn-readmore {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #feb518;
+    border: 2px solid #feb518;
+    color: #333;
+    padding: 17px 45px;
+    border-radius: 0;
+    margin-top: 20px;
+    transition: .3s;
+}
+.btn.btn-readmore:hover {
+    background-color: #fff;
+}
+
+/*---style sec-banner---*/
+.slider img.bg-banner {
+    min-height: 650px;
+    object-fit: cover;
+}
+.content-banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.content-banner .img-banner {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 40%;
+}
+.content-banner .banner-title {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 60%;
+    color: #fff;
+}
+.content-banner .banner-title.center {
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.banner-title .icon-banner {
+    margin-bottom: 25px;
+}
+.banner-title h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.banner-title p {
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+.banner-title .btn-banner {
+    font-size: 14px;
+    background-color: #feb518;
+    color: #000;
+    padding: 16px 50px;
+    border-radius: 0;
+    border: 2px solid #feb518;
+    transition: .4s;
+}
+.banner-title .btn-banner:hover {
+    background-color: transparent;
+    color: #feb518;
+}
+/*---end style sec-banner---*/
+
+/*---style sec-service---*/
+.sec.sec-service {
+    margin-bottom: 90px;
+}
+.sec-service .service-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.service-item img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.service-item h3 {
+    margin-bottom: 20px;
+}
+.service-item h3 a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+    transition: .3s;
+}
+.service-item:hover h3 a {
+    color: #feb518
+}
+.service-item p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #777;
+    margin-bottom: 25px;
+}
+.service-item .btn-readmore {
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    transition: .3s;
+}
+.service-item .btn-readmore:hover {
+    color: #feb518;
+}
+/*---end style sec-service---*/
+
+/*---style sec-menu---*/
+.block-title {
+    background-image: url(images/bg-menu.jpg);
+    background-size: cover;
+    color: #fff;
+    width: 100%;
+    height: 550px;
+    display: table;
+    box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 40%);
+}
+.block-title.menu-title {
+    background-image: url(images/bg-menu.jpg);
+}
+.block-title .container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.tieudect {
+    margin-top: -60px;
+    margin-bottom: 180px;
+}
+.tieudect a {
+    color: #fefefe;
+    padding: 10px 18px;
+    text-decoration: none;
+}
+.tieudect a:hover {
+    color: #feb518;
+}
+
+.motmon {
+    margin-bottom: 20px;
+}
+.motmon .anhmon {
+    position: relative;
+    outline: 5px solid #f6f6f6;
+}
+.motmon .anhmon .tagnew {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 12px;
+    background-color: #feb518;
+    color: #333;
+    padding: 2px 5px;
+}
+.tenmon {
+    margin-left: -5px;
+}
+.tenmon .tren {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    color: #333;
+    border-bottom: 2px dotted #999;
+}
+.tenmon .tren .ten {
+    background: #fff;
+    transform: translateY(3px);
+    display: inline-block;
+    padding-right: 7px;
+}
+.tenmon .tren span {
+    display: inline-block;
+    background: #fff;
+    transform: translateY(3px);
+    padding-left: 5px;
+}
+.tenmon .duoi {
+    color: #777;
+    font-size: 13px;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 9px;
+}
+/*---end style sec-menu---*/
+
+/*---style sec-special-dishes---*/
+.sec-special-dishes {
+    background-image: url(images/bg-special-dishes.jpg);
+    background-size: cover;
+    padding: 47px 0 50px 0;
+    margin-bottom: 90px;
+}
+.sec-special-dishes h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 45px;
+} 
+.sanpham {
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 7px;
+    margin-bottom: 20px;
+}
+.sanpham img.anhspslide {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.sanpham .tensp {
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 10px;
+    transition: .3s;
+}
+.sanpham:hover .tensp {
+    color: #feb518;
+}
+.sanpham .tencongthuc {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.slidemonan a.right.carousel-control, 
+.slidemonan a.left.carousel-control {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.29);
+    width: 34px;
+    height: 34px;
+    top: -57px;
+    color: white;
+    line-height: 36px;
+    text-align: center;
+}
+.slidemonan a.left.carousel-control {
+    right: 36px;
+    left: auto;
+}
+.slidemonan a.right.carousel-control:hover, 
+.slidemonan a.left.carousel-control:hover {
+    background:rgba(254, 181, 24, 0.59);
+}
+.slidemonan ol.carousel-indicators {
+    display: none;
+}
+/*---end style sec-special-dishes---*/
+
+/*---style sec-chef---*/
+section.sec.sec-chef {
+    margin-bottom: 0;
+}
+.chef-info h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: #333;
+}
+.chef-info span {
+    font-family: 'Dancing Script', cursive;
+    font-size: 31px;
+    color: #feb518;
+    display: block;
+    margin-bottom: 25px;
+}
+.chef-info p {
+    line-height: 26px;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.chef-contact a.chef-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 3px;
+    margin-right: 4px;
+    transition: .3s;
+}
+.chef-contact a.chef-icon:hover {
+    background-color: #feb518;
+    color: #333;
+}
+/*---end style sec-chef---*/
+
+/*---style sec-slogan---*/
+.sec-slogan {
+    background-image: url(images/bg-slogan.jpg);
+    background-size: cover;
+    color: #fff;
+    width: 100%;
+    height: 550px;
+    display: table;
+    box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 40%);
+}
+.sec-slogan .container {
+    display: table-cell;
+    vertical-align: middle;
+}
+/*---end style sec-slogan---*/
+
+/*---style sec-order---*/
+.order-info {
+    padding: 0 60px 60px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.order-info h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 35px;
+}
+.order-info p {
+    font-size: 15px;
+    line-height: 26px;
+    color: #777;
+}
+.order-info p span {
+    color: #feb518;
+}
+.order-info a.order-tel {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #333;
+    text-decoration: none;
+}
+.order-info a.order-tel:hover {
+    color: #feb518;
+}
+
+.order-form h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 60px;
+}
+.order-form input {
+    height: 45px;
+    font-size: 13px;
+    border: 1px solid #e2e2e2;
+    border-radius: 0;
+}
+.order-form .form-group {
+    margin-bottom: 30px;
+}
+.order-form .btn-order {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #feb518;
+    border: 2px solid #feb518;
+    color: #333;
+    padding: 17px 45px;
+    border-radius: 0;
+    margin-top: 20px;
+    transition: .3s;
+}
+.order-form .btn-order:hover {
+    background-color: #fff;
+}
+/*---end style sec-order---*/
+
+/*---style sec-testimonial---*/
+.sec-testimonial {
+    background-image: url(images/bg-testimonial.jpg);
+    background-size: cover;
+    color: #fff;
+    box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 60%);
+}
+.sec-testimonial .carousel.slide {
+    padding: 100px 0;
+}
+.sec-testimonial .carousel.slide i {
+    font-size: 40px;
+    margin-bottom: 45px;
+}
+
+.sec-testimonial .carousel.slide .quote {
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 25px;
+}
+.sec-testimonial .carousel.slide .name-customer {
+    font-family: 'Dancing Script', cursive;
+    font-size: 29px;
+    color: #feb518;
+}
+.quote:before,
+.quote:after {
+    content: '"';
+}
+.name-customer:before {
+    content: '-';
+    color: #fff;
+}
+/*---end style sec-testimonial---*/
+
+/*---style sec-blog---*/
+.sec-blog {
+    margin-bottom: 90px;
+}
+.post-item {
+    margin-bottom: 30px;
+}
+.post-item .post-thumb img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.post-item .post-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: #333;
+    display: block;
+    margin-bottom: 15px;
+}
+.post-item .post-date {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+.post-item .post-date .post-author {
+    color: #feb518;
+}
+.post-item .post-excerpt {
+    font-size: 14px;
+    line-height: 24px;
+    color: #777;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed #d6d6d6;
+}
+.post-item .post-meta .readmore {
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+    text-decoration: none;
+    display: block;
+}
+.post-item:hover .post-meta .readmore {
+    color: #feb518;
+}
+.post-item .post-meta .like {
+    float: right;
+    font-size: 14px;
+    color: #777;
+}
+/*---end style sec-blog---*/
+
+/*---style page about---*/
+/*---style sec-page-title---*/
+.sec-page-title .block-title {
+    background-image: url(images/about-title.jpg);
+}
+.block-page-title .container {
+    display: table-cell;
+    vertical-align: middle;
+}
+.info-desc .title-style-02 {
+    margin-bottom: 30px;
+}
+.info-desc p {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.6;
+}
+.info-img {
+    display: inline-flex;
+    padding: 0 10px;
+}
+.info-img img {
+    width: calc(100% / 3);
+    padding: 0 5px;
+}
+/*---style sec-banner-title---*/
+.sec-banner-title .block-title {
+    background-image: url(images/bg-bread.jpg);
+}
+/*---style sec-service---*/
+.service-item img.img-thumb {
+    width: 50%;
+    margin-bottom: 25px;
+}
+/*---end style page about---*/
+/*---end style main---*/
+
+/*---style footer---*/
+.footer {
+    background-color: #151515;
+    color: #999;
+    padding: 115px 0 60px 0;
+}
+
+.footer h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ccc;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.footer h3:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30px;
+    height: 1px;
+    background-color: #feb518;
+}
+
+/*---style footer-info---*/
+.footer-info img {
+    margin-bottom: 18px;
+}
+.footer-info p.footer-intro {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 28px;
+}   
+.icon-box {
+    display: inline-flex;
+}
+.icon-box .icon-box-thumb {
+    width: 15px;
+    margin-top: 5px;
+    margin-right: 15px;
+    font-size: 13px;
+    color: #999;
+}
+.icon-box .icon-box-content {
+    font-size: 13px;
+    line-height: 24px;
+}
+.icon-box .icon-box-content p {
+    margin-bottom: 10px;;
+}
+.icon-box .icon-box-content a {
+    color: #999;
+    text-decoration: none;
+}
+.icon-box .icon-box-content a:hover {
+    color: #feb518;
+}
+/*---end style footer-info---*/
+
+/*---style footer-useful---*/
+.footer-useful ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+}
+.footer-useful ul li {
+    margin-bottom: 19px;
+}
+.footer-useful ul li a {
+    text-decoration: none;
+    color: #999;
+}
+.footer-useful ul li:hover a {
+    color: #feb518;
+}
+/*---end style footer-useful---*/
+
+/*---style footer-blog---*/
+.post-item-inline {
+    display: table;
+    margin-bottom: 20px;
+}
+.post-item-inline .post-thumb,
+.post-item-inline .post-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+.post-item-inline .post-thumb {
+    width: 62px;
+    height: 62px;
+}
+.post-item-inline .post-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #5c5c5c;
+    transition: .4s;
+}
+.post-item-inline:hover .post-thumb img {
+    transform: scale(1.2)
+}
+.post-item-inline .post-content {
+    padding-left: 15px;
+}
+.post-item-inline .post-content h5.post-title {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #ccc;
+}
+.post-item-inline .post-content h5.post-title a {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #ccc;
+    text-decoration: none;
+}
+.post-item-inline:hover .post-content h5.post-title a {
+    color: #feb518;
+}
+.post-item-inline .post-content .post-meta {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: #666;
+}
+/*---end style footer-blog---*/
+
+/*---style footer-opening---*/
+.opening-time {
+    font-size: 13px;
+    color: #a8a8a8;
+    height: 28px;
+    border-bottom: 1px dashed #a8a8a8;
+    margin-top: -12px;
+    margin-bottom: 35px
+}
+.opening-time .days {
+    float: left;
+    transform: translateY(12px);
+    background-color: #151515;
+    padding-right: 10px;
+}
+.opening-time .times {
+    float: right;
+    transform: translateY(12px);
+    background-color: #151515;
+    padding-left: 10px;
+}
+
+.footer-opening p {
+    font-size: 13px;
+    line-height: 24px;
+    color: #a8a8a8;
+}
+/*---end style footer-opening---*/
+
+/*---style absolute-footer---*/
+.absolute-footer {
+    background-color: #111;
+    padding: 40px 0;
+}
+.copyright-text {
+    text-align: center;
+    font-size: 13px;
+    color: #999;
+    letter-spacing: 1px;
+}
+/*---end style footer---*/
+
+/*---style for mobile---*/
+@media (max-width: 576px) {
+    /*---style header---*/
+    .header-top .social-list {
+        text-align: center;
+        border-right: 0 solid #434343;
+        padding: 10px 15px 0 15px;
+        margin-right: 0;
+    }
+    .header-top .social-list a:first-child {
+        padding-left: 15px;
+    }
+    .header-html {
+        text-align: center;
+    }
+    .header-html.opening {
+        display: none;
+    }
+
+    .sec {
+        margin-bottom: 60px;
+    }
+
+    .title-style-01 h2 {
+        font-size: 30px;
+    }
+    .title-style-01 span {
+        font-size: 30px;
+    }
+
+    /*---style sec-banner---*/
+    .slider img.bg-banner {
+        min-height: 550px;
+    }
+    .content-banner {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 100%;
+    }
+    .content-banner .img-banner {
+        display: none;
+    }
+    .content-banner .banner-title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        width: 80%;
+    }
+    .banner-title .icon-banner {
+        width: 30%;
+    }
+    .banner-title h2 {
+        font-size: 25px;
+    }
+    .banner-title .btn-banner {
+        padding: 10px 30px;
+    }
+    /*---end style sec-banner---*/
+
+    .sec.sec-service {
+        margin-bottom: 30px;
+    }
+
+    /*---style sec-menu---*/
+    .block-title {
+        height: 350px;
+    }
+    .tieudect {
+        margin-bottom: 90px;
+    }
+
+    /*---style sec-special-dishes---*/
+    .sanpham {
+        width: 50%;
+    }
+
+    /*---style sec-chef---*/
+    .chef-info {
+        margin-top: 30px;
+    }
+    .chef-contact {
+        margin-bottom: 60px;
+    }
+
+    /*---style sec-slogan---*/
+    .sec-slogan {
+        height: 350px;
+    }
+
+    /*---style sec-order---*/
+    .order-info {
+        padding: 0 0 30px;
+        margin-bottom: 30px;
+    }
+    .order-info h2,
+    .order-form h2 {
+        margin-bottom: 30px;
+    }
+    .order-form .form-group {
+        margin-bottom: 15px;
+    }
+
+    /*---style sec-blog---*/
+    .sec-blog {
+        margin-bottom: 30px;
+    }
+
+    /*---style page about---*/
+    .info-desc {
+        margin-bottom: 30px;
+    }
+
+    /*---style footer---*/
+    .footer {
+        padding: 60px 0 60px 0;
+    }
+}
+/*---end style for mobile---*/
